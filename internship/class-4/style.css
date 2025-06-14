@@ -1,0 +1,94 @@
+/* .nav{
+    display: flex;
+    /* justify-content: space-around; 
+     
+}
+.elv{
+    display: flex;
+    align-items: right;
+} */
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .logo {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
+  
+  .nav a:hover {
+    text-decoration-color:gray;
+  }
+.one{
+    background-image: url(https://img.freepik.com/free-photo/observation-urban-building-business-steel_1127-2397.jpg?semt=ais_hybrid&w=740);
+    height: 400px;
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+.two{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfTXejrmiHs156a49q-ONkNHzEuWPZFoGGyODy-oWo0fISGGHwxaAufqaRevLT-9MKXSY&usqp=CAU);
+    height: 180px;
+
+}
+.three{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfTXejrmiHs156a49q-ONkNHzEuWPZFoGGyODy-oWo0fISGGHwxaAufqaRevLT-9MKXSY&usqp=CAU);
+    height: 180px;
+    
+}
+.four{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfTXejrmiHs156a49q-ONkNHzEuWPZFoGGyODy-oWo0fISGGHwxaAufqaRevLT-9MKXSY&usqp=CAU);
+    height: 180px;
+    
+}
+.five{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfTXejrmiHs156a49q-ONkNHzEuWPZFoGGyODy-oWo0fISGGHwxaAufqaRevLT-9MKXSY&usqp=CAU);
+    height: 180px;
+    
+}
+.six{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfTXejrmiHs156a49q-ONkNHzEuWPZFoGGyODy-oWo0fISGGHwxaAufqaRevLT-9MKXSY&usqp=CAU);
+    height: 180px;
+    
+}
+.seven{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfTXejrmiHs156a49q-ONkNHzEuWPZFoGGyODy-oWo0fISGGHwxaAufqaRevLT-9MKXSY&usqp=CAU);
+    height: 180px;
+    
+}
+.eight{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfTXejrmiHs156a49q-ONkNHzEuWPZFoGGyODy-oWo0fISGGHwxaAufqaRevLT-9MKXSY&usqp=CAU);
+    height: 180px;
+    
+}
+.nine{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfTXejrmiHs156a49q-ONkNHzEuWPZFoGGyODy-oWo0fISGGHwxaAufqaRevLT-9MKXSY&usqp=CAU);
+    height: 180px;
+    
+}
+.ten{
+    background-image: url(https://previews.123rf.com/images/melpomen/melpomen1612/melpomen161200013/66661672-aerial-view-of-a-massive-highway-intersection-in-los-angeles.jpg);
+   height: 300px;
+    width: 100%;
+
+}

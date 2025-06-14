@@ -1,0 +1,71 @@
+l
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!-- <div class=" border-2 border-red-500 w-[80vw] h-[80vh] flex flex-row justify-around items-center gap-4 flex-wrap
+    "> -->
+        <!-- justify content align item center => container ke andr child ko -->
+        <!-- <div class="border w-12 h-12">flex</div>
+        <div class="border w-12 h-12">flex</div>
+        <div class="border w-12 h-12">flex</div>
+        <div class="border w-12 h-12">flex</div>
+        <div class="border w-12 h-12">flex</div>
+        <div class="border w-12 h-12">flex</div>
+
+    </div> -->
+
+<div class="border-2 border-red-500 w-[80vw] h-[80vh]
+ grid grid-cols-4 grid-rows-3 gap-2">
+ 
+      <div class="border">
+        <img src="https://img.freepik.com/premium-photo/generic-black-suv_2227-851.jpg?ga=GA1.1.1018532123.1719553572&semt=ais_hybrid&w=740" alt="">
+      </div>
+        <div class="border col-span-2 row-span-2">2</div>
+        <div class="border ">3</div>
+        <div class="border ">4</div>
+        <div class="border ">5</div>
+</div>
+
+  <h1 class="text-red-500-text-3xl font-bold overline leading-10 text-center">Its Me</h1>
+
+    <h1 class="text-[#489fb5] text-3xl font-bold overline text-center leading-20">
+        <!-- sm,md,lg,xl,2,xl 
+         50,100,200,300,400,500,600- 900,950-->
+      Neha Sharma
+    </h1>
+     <p class="border-5 border-green-800 border-dashed text-center font-bold bg-gray-100 shadow-lg">Neha</p>
+     <p class="bg-gradient-to-r from-green-200 to-blue-700 text-center rounded-full shadow-lg shadow-black w-[60]   ">
+        Gradient</p>
+<!-- only square convert in circle not rectangle *rounded-sm,md,lg,xl,2,xl -->
+         
+<p class="bg-yellow-200 p-8 pt-10 m-4 mb-10 w-50  border mx-auto animate-ping">pading & margin
+    <!-- (pl,ps=>padingleft,padingstart) (py=>padingright)(px=>padingleft)
+     pading=border ke ander margin=border ke bhar -->
+</p>
+<!-- overflow -->
+ <p class="bg-blue-400 w-10 capitalize uppercase  overflow-x-scroll text-[30px]">this is a texting
+    <!-- overflow-hidden,scroll,auto -->
+     <!-- Hexadecimal colour opacity - for shades of colour
+    Width :- total width of screen can be divided into parts- 2,3,4,5,6,9,11,12
+    w :- 1/2(50%) , w:1/3(33.3%) w:- 1/12(8.33%) wfull- (100%) , w-screen(100vw) ,w-[70vw]
+    bg image-[(url("location of image")])
+    bg-[linear-gradient(deg,#fff,#kjwb22,#223ac8,...)] -->
+ </p>
+ <p class="bg-[linear-gradient(110deg,#489fb5,#223ac8)]">Gradient colour</p>
+
+ <p class="bg-red-200 hover:bg-red-500 hover:border hover:shadow-md shadow-red-300 hover:text-white">Hover</p>
+  <p class="bg-red-200 hover:bg-red-500 hover:border hover:shadow-md shadow-red-300 hover:text-white">active</p>
+
+  <!-- media query:- sm,lg,xl,md,4xl -->
+   <p class="bg-blue-300 sm:bg-red-300 md:bg-green-300 animate-spin">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+   
+    
+   </body>
+   </html>
